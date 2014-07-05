@@ -2,8 +2,7 @@
 =====
 An awesome free one page HTML template for your startup business or personal website.
 
-##Features
-=====
+#Features
 
 - Rsponsive layout
 - CSS Framework - Bootstrap 3
@@ -15,8 +14,7 @@ An awesome free one page HTML template for your startup business or personal web
 - It's Free!
 
 
-##Demo Link
-======
+#Demo Link
 Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/Flusk/)
 
 
