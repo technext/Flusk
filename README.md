@@ -17,7 +17,7 @@ An awesome free one page HTML template for your startup business or personal web
 #Screenshot
 
 
-![Screenshot of Flusk
+![Screenshot of Flusk]
 (https://raw.githubusercontent.com/technext/Flusk/master/flusk.jpg)
 
 #Demo Link
