@@ -1,6 +1,6 @@
 /*  
 Theme Name: Flusk
-Version: 	1.0
+Version: 	1.14.11
 Author: 	ThemeWagon
 
 
@@ -25,6 +25,14 @@ TABLE OF CONTENTS
 /* ///////////////////////////////////////////////////////////////////// 
 //  01 - Global 
 /////////////////////////////////////////////////////////////////////*/
+
+* {outline: none !important;}
+
+::selection {
+	background-color: #475B6F;
+	color: #fff;
+}
+
 html {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -395,5 +403,27 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 767px){
 	.blog-post {
 		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 480px) {
+	#drawer-right {
+		padding: 10px 20px;
+	}
+
+	#drawer-right .nav-pills>li>a {
+		font-size: 17px;
+	}
+
+	.nav-stacked>li+li {
+		margin-top: 0;
+	}
+
+	.nav>li>a {
+		padding: 8px 15px;
+	}
+
+	#drawer-right .social {
+		margin-top: 20px;
 	}
 }
