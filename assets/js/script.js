@@ -112,7 +112,8 @@
 
 
 	//Set Down Arrow Button
-	jQuery('#scrollToContent').click(function(){		
+	jQuery('#scrollToContent').click(function(e){
+		e.preventDefault();
 		jQuery.scrollTo("#portfolio", 1000, { offset:-(jQuery('#header .top').height()), axis:'y' });
 	});
 
