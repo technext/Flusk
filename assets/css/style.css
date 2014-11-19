@@ -1,6 +1,6 @@
 /*  
 Theme Name: Flusk
-Version: 	1.14.11
+Version: 	1.19.11
 Author: 	ThemeWagon
 
 
@@ -403,6 +403,18 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 767px){
 	.blog-post {
 		margin-bottom: 40px;
+	}
+
+	.recent-work {
+		background-position: center;
+	}
+
+	.recent-work:before {
+		opacity: 1;
+	}
+
+	.recent-work span {
+		opacity: 1;
 	}
 }
 
