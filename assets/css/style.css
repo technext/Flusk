@@ -436,6 +436,10 @@ h1, h2, h3, h4, h5, h6{
 	}
 
 	#drawer-right .social {
-		margin-top: 20px;
+		margin-top: 5px;
+	}
+
+	#header {
+		background-size: cover;
 	}
 }
