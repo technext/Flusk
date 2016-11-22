@@ -41,21 +41,21 @@
 	// Set Home Slideshow Height
 	///////////////////////////////
 
-	function setHomeBannerHeight() {
+	/*function setHomeBannerHeight() {
 		var windowHeight = jQuery(window).height();	
 		jQuery('#header').height(windowHeight);
-	}
+	}*/
 
 	///////////////////////////////
 	// Center Home Slideshow Text
 	///////////////////////////////
 
-	function centerHomeBannerText() {
+	/*function centerHomeBannerText() {
 			var bannerText = jQuery('#header > .center');
 			var bannerTextTop = (jQuery('#header').actual('height')/2) - (jQuery('#header > .center').actual('height')/2) - 40;		
 			bannerText.css('padding-top', bannerTextTop+'px');		
 			bannerText.show();
-	}
+	}*/
 
 
 
@@ -97,18 +97,18 @@
 	// Initialize
 	///////////////////////////////
 
-	jQuery.noConflict();
+	/*jQuery.noConflict();
 	setHomeBannerHeight();
 	centerHomeBannerText();
 	setSlideNav();
-	setHeaderBackground();
+	setHeaderBackground();*/
 
 	//Resize events
-	jQuery(window).smartresize(function(){
+	/*jQuery(window).smartresize(function(){
 		setHomeBannerHeight();
 		centerHomeBannerText();
 		setHeaderBackground();
-	});
+	});*/
 
 
 	//Set Down Arrow Button
