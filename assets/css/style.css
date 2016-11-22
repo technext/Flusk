@@ -183,16 +183,6 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Alegreya SC';
 }
 
-@media screen and (max-width: 767px) and (orientation: landscape) {
-    #header .slogan {
-		font-size: 2.8em; 
-	} 
-
-	#header .secondary-slogan {
-		font-size: 1.2em;
-	}
-}
-
 #header .bottom {
     bottom: 10%;
 	display: block;
@@ -458,6 +448,14 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media (max-width: 480px) {
+	#header .slogan {
+		font-size: 2.8em; 
+	} 
+
+	#header .secondary-slogan {
+		font-size: 1.2em;
+	}
+	
 	#drawer-right {
 		padding: 10px 20px;
 	}
