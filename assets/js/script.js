@@ -69,12 +69,12 @@
 			e.preventDefault();
 
 			if($wrapper.css('marginLeft')=='0px'){
-				$drawerRight.animate({marginRight : 0},200);
-				$wrapper.animate({marginLeft : -300},200);
+				$drawerRight.animate({marginRight : 0},500);
+				$wrapper.animate({marginLeft : -300},500);
 			}
 			else{
-				$drawerRight.animate({marginRight : -300},200);
-				$wrapper.animate({marginLeft : 0},200);
+				$drawerRight.animate({marginRight : -300},500);
+				$wrapper.animate({marginLeft : 0},500);
 			}
 			
 		})
@@ -97,11 +97,12 @@
 	// Initialize
 	///////////////////////////////
 
+
+	setSlideNav();
 	/*jQuery.noConflict();
 	setHomeBannerHeight();
-	centerHomeBannerText();
-	setSlideNav();
-	setHeaderBackground();*/
+	centerHomeBannerText();*/
+	setHeaderBackground();
 
 	//Resize events
 	/*jQuery(window).smartresize(function(){
